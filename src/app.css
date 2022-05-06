@@ -1,0 +1,54 @@
+/* Write your global styles here, in PostCSS syntax */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}
+
+body {
+    -webkit-animation: bgcolor 10s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+.scan-region-highlight {
+    border-radius: 6px;
+    outline: rgba(0, 0, 0, .25) solid 50vmax;
+}
+
+.scan-region-highlight-svg {
+    display: none;
+}
+
+.code-outline-highlight {
+    stroke: rgba(255, 255, 255, .5) !important;
+    stroke-width: 15 !important;
+    stroke-dasharray: none !important;
+}

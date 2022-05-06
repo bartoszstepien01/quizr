@@ -1,0 +1,5 @@
+{
+	"scanQRCode": "scanne den QR-Code, um das Spiel beizutreten",
+	"playersConnected": "{{count}} Spieler verbunden",
+	"startGame": "Spiel starten"
+}

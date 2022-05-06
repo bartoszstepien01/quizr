@@ -1,0 +1,5 @@
+{
+	"scanQRCode": "zeskanuj kod qr, aby dołączyć do gry",
+	"playersConnected": "{{count; 1:połączony; default:połączonych;}} {{count}} {{count; 1:gracz; default:graczy;}}",
+	"startGame": "rozpocznij grę"
+}

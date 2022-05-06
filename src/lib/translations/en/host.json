@@ -1,0 +1,5 @@
+{
+	"scanQRCode": "scan the qr code to join the game",
+	"playersConnected": "{{count}} {{count; 1:player; default:players;}} connected",
+	"startGame": "start game"
+}
