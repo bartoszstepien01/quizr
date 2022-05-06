@@ -1,0 +1,1 @@
+const n="do\u0142\u0105cz do gry",o="wpisz sw\xF3j pseudonim",t="do\u0142\u0105cz";var i={joinGame:n,nicknameInput:o,joinButton:t};export{i as default,t as joinButton,n as joinGame,o as nicknameInput};

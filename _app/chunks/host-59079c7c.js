@@ -1,0 +1,1 @@
+const o="zeskanuj kod qr, aby do\u0142\u0105czy\u0107 do gry",a="{{count; 1:po\u0142\u0105czony; default:po\u0142\u0105czonych;}} {{count}} {{count; 1:gracz; default:graczy;}}",c="rozpocznij gr\u0119";var t={scanQRCode:o,playersConnected:a,startGame:c};export{t as default,a as playersConnected,o as scanQRCode,c as startGame};

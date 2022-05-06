@@ -1,0 +1,1 @@
+const e="scan the qr code to join the game",t="{{count}} {{count; 1:player; default:players;}} connected",a="start game";var n={scanQRCode:e,playersConnected:t,startGame:a};export{n as default,t as playersConnected,e as scanQRCode,a as startGame};

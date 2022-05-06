@@ -1,0 +1,1 @@
+const e="scanne den QR-Code, um das Spiel beizutreten",n="{{count}} Spieler verbunden",t="Spiel starten";var a={scanQRCode:e,playersConnected:n,startGame:t};export{a as default,n as playersConnected,e as scanQRCode,t as startGame};

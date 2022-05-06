@@ -1,0 +1,222 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-b480258a.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-82ea7ce8.js",
+      "_index-d0f4ef2b.js",
+      "_preload-helper-e4860ae8.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/host.svelte",
+      "src/routes/index.svelte",
+      "src/routes/join.svelte",
+      "src/routes/player.svelte",
+      "src/routes/waiting_room.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-e6195ddf.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-82ea7ce8.js",
+      "_index-5542371c.js",
+      "_preload-helper-e4860ae8.js",
+      "_index-d0f4ef2b.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-c6eb368f.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-96ac6ad5.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-82ea7ce8.js"
+    ]
+  },
+  "src/routes/host.svelte": {
+    "file": "pages/host.svelte-dfb7fd2e.js",
+    "src": "src/routes/host.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-82ea7ce8.js",
+      "_index-5542371c.js",
+      "_stores-459f9708.js",
+      "_preload-helper-e4860ae8.js",
+      "_index-d0f4ef2b.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-9e018b09.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_preload-helper-e4860ae8.js",
+      "_index-82ea7ce8.js",
+      "_index-5542371c.js",
+      "_stores-459f9708.js",
+      "_index-d0f4ef2b.js"
+    ],
+    "dynamicImports": [
+      "_peerjs.min-0c57d7b7.js"
+    ]
+  },
+  "src/routes/join.svelte": {
+    "file": "pages/join.svelte-3485a3bb.js",
+    "src": "src/routes/join.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-82ea7ce8.js",
+      "_stores-459f9708.js",
+      "_navigation-0e6511d1.js",
+      "_index-5542371c.js",
+      "_index-d0f4ef2b.js",
+      "_singletons-d1fb5791.js",
+      "_preload-helper-e4860ae8.js"
+    ]
+  },
+  "src/routes/player.svelte": {
+    "file": "pages/player.svelte-bb4c9199.js",
+    "src": "src/routes/player.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-82ea7ce8.js",
+      "_preload-helper-e4860ae8.js",
+      "_index-5542371c.js",
+      "_stores-459f9708.js",
+      "_navigation-0e6511d1.js",
+      "_index-d0f4ef2b.js",
+      "_singletons-d1fb5791.js"
+    ],
+    "dynamicImports": [
+      "node_modules/qr-scanner/qr-scanner-worker.min.js"
+    ],
+    "css": [
+      "assets/pages/player.svelte-700ab054.css"
+    ]
+  },
+  "src/routes/waiting_room.svelte": {
+    "file": "pages/waiting_room.svelte-dad1c953.js",
+    "src": "src/routes/waiting_room.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-82ea7ce8.js",
+      "_stores-459f9708.js",
+      "_index-d0f4ef2b.js"
+    ]
+  },
+  "_index-82ea7ce8.js": {
+    "file": "chunks/index-82ea7ce8.js"
+  },
+  "_index-d0f4ef2b.js": {
+    "file": "chunks/index-d0f4ef2b.js",
+    "imports": [
+      "_index-82ea7ce8.js"
+    ]
+  },
+  "_singletons-d1fb5791.js": {
+    "file": "chunks/singletons-d1fb5791.js"
+  },
+  "_preload-helper-e4860ae8.js": {
+    "file": "chunks/preload-helper-e4860ae8.js"
+  },
+  "_index-5542371c.js": {
+    "file": "chunks/index-5542371c.js",
+    "imports": [
+      "_preload-helper-e4860ae8.js",
+      "_index-d0f4ef2b.js",
+      "_index-82ea7ce8.js"
+    ],
+    "dynamicImports": [
+      "src/lib/translations/en/index.json",
+      "src/lib/translations/pl/index.json",
+      "src/lib/translations/de/index.json",
+      "src/lib/translations/en/host.json",
+      "src/lib/translations/pl/host.json",
+      "src/lib/translations/de/host.json",
+      "src/lib/translations/en/join.json",
+      "src/lib/translations/pl/join.json",
+      "src/lib/translations/de/join.json"
+    ]
+  },
+  "_stores-459f9708.js": {
+    "file": "chunks/stores-459f9708.js",
+    "imports": [
+      "_index-d0f4ef2b.js"
+    ]
+  },
+  "_navigation-0e6511d1.js": {
+    "file": "chunks/navigation-0e6511d1.js",
+    "imports": [
+      "_singletons-d1fb5791.js"
+    ]
+  },
+  "src/lib/translations/en/index.json": {
+    "file": "chunks/index-1510a2c6.js",
+    "src": "src/lib/translations/en/index.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/pl/index.json": {
+    "file": "chunks/index-6d8e59bc.js",
+    "src": "src/lib/translations/pl/index.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/de/index.json": {
+    "file": "chunks/index-69a07ba4.js",
+    "src": "src/lib/translations/de/index.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/en/host.json": {
+    "file": "chunks/host-274907c5.js",
+    "src": "src/lib/translations/en/host.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/pl/host.json": {
+    "file": "chunks/host-59079c7c.js",
+    "src": "src/lib/translations/pl/host.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/de/host.json": {
+    "file": "chunks/host-7d9d298e.js",
+    "src": "src/lib/translations/de/host.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/en/join.json": {
+    "file": "chunks/join-d1e9c59e.js",
+    "src": "src/lib/translations/en/join.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/pl/join.json": {
+    "file": "chunks/join-1d3d3e5e.js",
+    "src": "src/lib/translations/pl/join.json",
+    "isDynamicEntry": true
+  },
+  "src/lib/translations/de/join.json": {
+    "file": "chunks/join-230e5815.js",
+    "src": "src/lib/translations/de/join.json",
+    "isDynamicEntry": true
+  },
+  "_peerjs.min-0c57d7b7.js": {
+    "file": "chunks/peerjs.min-0c57d7b7.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/qr-scanner/qr-scanner-worker.min.js": {
+    "file": "chunks/qr-scanner-worker.min-ac255263.js",
+    "src": "node_modules/qr-scanner/qr-scanner-worker.min.js",
+    "isDynamicEntry": true
+  }
+}
